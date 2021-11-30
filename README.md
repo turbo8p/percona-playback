@@ -33,7 +33,7 @@ You have two options to use as replay input.
 2. General log
 
 ### Slow log
-Add below config to your `my.cnf`. This will ensure that Mysql logs every queries.
+Add below config to your `my.cnf` and restart the service. This will ensure that Mysql logs every queries.
 ```
 [mysqld]
 slow_query_log=1
