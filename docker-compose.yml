@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  percona-playback:
+    container_name: percona-playback
+    build:
+      context: ./
+      dockerfile: Dockerfile
