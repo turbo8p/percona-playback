@@ -27,7 +27,7 @@ percona-playback --input-plugin general-log --mysql-host=test-host --mysql-user=
 ```
 
 ## Get logs from mysql
-You have two options to use as replay input.
+You have two options for replay input.
 
 1. Slow log
 2. General log
